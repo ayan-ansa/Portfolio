@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Ayan's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+              <a href="#"><i class="fa-regular fa-moon"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi,My name is <span class="purple">Ayan</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="developer.png" alt="Image" />
+        </div>
+      </section>
+      <section class="secondSection">
+        <hr />
+        <div class="experience">
+          <span class="gray-text">What I have done so far</span>
+          <h1 class="info">Work Experience</h1>
+          <div class="box">
+            <div class="vertical">
+              <div class="vertical-title1">HTML Developer (2016-2018)</div>
+              <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos deserunt tempora rem fugit, natus minus saepe voluptatibus accusantium accus
+               </p>
+            </div>
+            <div class="vertical">
+              <div class="vertical-title2">JavaScript Developer (2018-2020)</div>
+              <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos deserunt tempora rem fugit, natus minus saepe voluptatibus accusantium accus
+               </p>
+            </div>
+            <div class="vertical">
+              <div class="vertical-title3">React js Developer (2020-2022)</div>
+              <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos deserunt tempora rem fugit, natus minus saepe voluptatibus accusantium accus
+                </p>
+            </div>
+            <div class="vertical">
+              <div class="vertical-title4">Node js Developer (2022-2024)</div>
+              <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos deserunt tempora rem fugit, natus minus saepe voluptatibus accusantium accus
+              </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2>Contact Me</h2>
+        <p>Feel free to get in touch through the contact form.</p>
+      <div class="footer-items">
+      <h3>Developer's Portfolio</h3>
+      <ul>
+            <li><a href="#" class="footer">Home</a></li>
+            <li><a href="#" class="footer">About</a></li>
+            <li><a href="#" class="footer">Services</a></li>
+            <li><a href="#" class="footer">Contact</a></li>
+      </ul>
+      <ul>
+        <li><a href="#" class="footer">Home</a></li>
+        <li><a href="#" class="footer">About</a></li>
+        <li><a href="#" class="footer">Services</a></li>
+        <li><a href="#" class="footer">Contact</a></li>
+      </ul>
+      <ul>
+        <li><a href="#" class="footer">Home</a></li>
+            <li><a href="#" class="footer">About</a></li>
+            <li><a href="#" class="footer">Services</a></li>
+            <li><a href="#" class="footer">Contact</a></li>
+      </ul>
+    </div>
+      <p class="copy">&copy; 2023 Abdulla Ansari. All Rights Reserved.</p>
+  </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Graphic Designer",
+          "Web Designer",
+          "Software Developer",
+          "Programmer",
+          "Software Designer",
+        ],
+        typeSpeed: 80,
+      });
+    </script>
+  </body>
+  <script src="script.js"></script>
+</html>
