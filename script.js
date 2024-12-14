@@ -3,18 +3,6 @@ const toTopBtn = document.getElementById("to-top");
 const toggleBtn = document.getElementById("theme-toggle");
 const sunIcon = document.getElementById("sun-icon");
 const moonIcon = document.getElementById("moon-icon");
-var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 30,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
 
 const theme = localStorage.getItem("theme");
 
